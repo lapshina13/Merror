@@ -1,0 +1,18 @@
+.eyes {
+  width: 1280px;
+  height: 585px;
+  position: relative;
+  background-image: url("../images/eyess.svg");
+  animation: smena 1s steps(1) infinite;
+}
+@keyframes smena {
+  0% {
+    background-position: -1280px 0;
+  }
+  33% {
+    background-position: -2560px 0;
+  }
+  66% {
+    background-position: -3840px 0;
+  }
+}
