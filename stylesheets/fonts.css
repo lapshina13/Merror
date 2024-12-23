@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts/RubikOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "InterBlack";
+    src: url(../fonts/Inter-Black.otf);
+}
+
+@font-face {
+    font-family: "InterMedium";
+    src: url(../fonts/Inter-Medium.otf);
+}
+@font-face {
+    font-family: "InterSemiBoldItalic";
+    src: url(../fonts/Inter-SemiBoldItalic.otf);
+}
+@font-face {
+    font-family: "InterThin";
+    src: url(../fonts/Inter-Thin.otf);
+}
+
+@font-face {
+    font-family: "InterThinItalic";
+    src: url(../fonts/Inter-ThinItalic.otf);
+}
+
+@font-face {
+    font-family: "InterLightItalic";
+    src: url(../fonts/Inter-LightItalic.otf);
+}
