@@ -31,7 +31,7 @@ html {
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
-    height: 100%;
+    height: 1111px;
     position: relative;
 }
 
@@ -98,7 +98,7 @@ html {
 
 .fredline {
     display: inline-block;
-    animation: textmove1 2s linear infinite;
+    animation: textmove1 4s linear infinite;
 }
 
 .sline {
@@ -117,7 +117,7 @@ html {
 .foline {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 66%;
     height: 100%;
     justify-content: space-between;
     align-items: center;
@@ -125,7 +125,7 @@ html {
 
 .eredline {
     display: inline-block;
-    animation: textmove1 2s linear infinite;
+    animation: textmove1 4s linear infinite;
 }
 
 .seline img {
@@ -183,9 +183,10 @@ html {
     z-index: 1;
     background-color: white;
     box-sizing: border-box;
-    font-size: 64px;
-    padding-top: 150px;
-    padding-left: 50px;
+    font-size: 3vw;
+    padding-top: 10vh;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
 }
 
 .ftext {
@@ -300,6 +301,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 50%;
     height: 300px;
 }
 
@@ -308,9 +310,33 @@ html {
 }
 
 .l1 img, .r1 img {
+    width: 100%;
+    height: 100%;
     animation: moveUp 2s linear infinite;
 }
 
 .c1 img {
+    width: 100%;
+    height: 100%;
     animation: moveDown 2s linear infinite;
+}
+
+.filine img {
+    width: 100%;
+    height: 100%;
+}
+
+.seline img {
+    width: 100%;
+    height: 100%;
+}
+
+.ninth img {
+    width: 100%;
+    height: 100%;
+}
+
+.babushka img {
+    width: 100%;
+    height: 100%;
 }
